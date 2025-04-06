@@ -31,8 +31,7 @@ namespace CS_HomeWork_002
         }
         static void Main(string[] args)
         {
-            int num = int.Parse(args[0]);
-            int simpleNum = 0;
+            int num = int.Parse(args[0]);            
             string result = string.Empty;
             File.WriteAllText("file002.txt", string.Empty);
             WriteToFile("file002.txt", "Простые числа:\n");
